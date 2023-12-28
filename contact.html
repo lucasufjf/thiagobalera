@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Thiago Balera | Contact</title>
+        <meta name="author" content="Lucas Araujo">
+        <meta name="description" content="Contact page of Thiago Balera, photographer, graphic designer and web developer">
+        <meta name="keywords" content="thiago balera singer vocalist musician contact aquarela records sorocaba brazil">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <!--link to Google Fonts API-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital@0;1&family=Nunito:wght@800;900;1000&display=swap" rel="stylesheet">        
+        <!--link to external CSS stylesheet-->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>  
+            <div id="logo"></div>
+            <nav id="navbar">
+                <div id="menu"> 
+                    <a href="index.html" title="Home">Home</a>
+                    <a href="about.html" title="About">About</a>
+                    <a href="media.html" title="Media">Media</a>
+                    <a href="contact.html" title="Contact">Contact</a>
+                </div>
+            </nav>
+
+            <div id="socialMedia">
+                <a href="https://www.instagram.com/lu4arts" target="_blank" title="Visit my Instagram!"><img src="images/socialmedia/instagram.png" alt="Instagram icon"></a>
+                <a href="https://www.facebook.com/lucas.ufjf/" target="_blank" title="Visit my Facebook!"><img src="images/socialmedia/facebook.png" alt="Facebook icon"></a>                
+                <a href="https://www.facebook.com/lucas.ufjf/" target="_blank" title="Visit my Facebook!"><img src="images/socialmedia/twitter.png" alt="Facebook icon"></a>                
+            </div> 
+        </header>
+        
+        <main class="container">       
+            <h1>Contact</h1>
+            <p>Thank you for your interest in getting in touch! Please feel free to use any of the methods below to contact Thiago Balera for booking inquiries, collaborations, or just to say hello.</p>
+            <form class="contact" action="mailto:contact@thiagobalera.com">
+                <label for="reason">Reason for contact</label>
+                <select name="reason" id="reason">
+                    <option value="" disabled selected>Choose here</option><!--Reference: https://www.w3schools.com/tags/att_option_disabled.asp-->
+                    <option value="Message">Message</option>
+                    <option value="Booking">Booking</option>
+                    <option value="Collaboration">Collaboration</option>
+                    <option value="Inquiry">Inquiry</option>
+                    <option value="Inquiry">Press</option>
+                    <option value="Inquiry">Merchandise</option>
+                </select>
+
+                <label for="name">Your name*</label>
+                <input name="name" id="name" type="text" placeholder="Enter your name" required>
+
+                <label for="email">Your email*</label>
+                <input name="email" id="email" type="email" placeholder="Enter your email" required>
+
+                <label for="tel">Your telephone</label>
+                <input name="tel" id="tel" type="tel" placeholder="Enter your telephone">
+
+                <label for="message">Your message*</label>
+                <textarea name="message" id="message" placeholder="Enter your message" cols="30" rows="10" required></textarea>
+
+                <input type="submit">
+            </form>
+
+            <section class="address">
+                <img src="images/contact/thiago_balera_contact.jpg" alt="Contact Thiago Balera">
+                <br>
+                <strong>Address:</strong> Rua Amador Bueno, 44 - Centro, Sorocaba - SP, 18030-105, Brazil
+                <br>
+                <strong>Email:</strong> contact@thiagobalera.com
+                <br>
+                <strong>Phone:</strong> +55 15 99124-1983
+                <br><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14635.105858033041!2d-47.4626061!3d-23.5045597!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58abdf34ac785%3A0x5984c9ba84fcb11!2sAquarela%20Studios%20(Ensaios%2C%20Grava%C3%A7%C3%B5es%20e%20Produ%C3%A7%C3%A3o%20Musical)!5e0!3m2!1sen!2sca!4v1681800539788!5m2!1sen!2sca" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>
+
+        <footer>
+            Copyright 2023 by <strong>Lucas Araujo</strong>.<br><em class="small">All Rights Reserved</em>.
+        </footer>      
+    </body>
+</html>

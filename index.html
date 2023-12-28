@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Thiago Balera | Official Website</title>
+        <meta name="author" content="Lucas Araujo">
+        <meta name="description" content="Home page of Thiago Balera, musician, instrumentalist and vocalist">
+        <meta name="keywords" content="thiago balera home musician instrumentalist vocalist">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <!--link to Google Fonts API-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:ital@0;1&family=Nunito:wght@800;900;1000&display=swap" rel="stylesheet">        
+        <link href="css/slideshow.css" rel="stylesheet"><!--Reference: https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+        <!--link to external CSS stylesheet-->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>  
+            <div id="logo"></div>
+            <nav id="navbar">
+                <div id="menu"> 
+                    <a href="index.html" title="Home">Home</a>
+                    <a href="about.html" title="About">About</a>
+                    <a href="media.html" title="Media">Media</a>
+                    <a href="contact.html" title="Contact">Contact</a>
+                </div>
+            </nav>
+
+            <div id="socialMedia">
+                <a href="https://www.instagram.com/lu4arts" target="_blank" title="Visit my Instagram!"><img src="images/socialmedia/instagram.png" alt="Instagram icon"></a>
+                <a href="https://www.facebook.com/lucas.ufjf/" target="_blank" title="Visit my Facebook!"><img src="images/socialmedia/facebook.png" alt="Facebook icon"></a>                
+                <a href="https://www.facebook.com/lucas.ufjf/" target="_blank" title="Visit my Facebook!"><img src="images/socialmedia/twitter.png" alt="Facebook icon"></a>                
+            </div> 
+        </header>
+        
+        <main class="container">  
+            <!--START Slideshow-->
+            <div id="slideshow"><!--Reference: https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img class="slide-img" src="images/slide/thiago_balera_soundburst.jpg" alt="Picture of the new album of Thiago Balera">
+                        <div class="slide-text">
+                            <a href="media.html" class="slide-link">Soundburst<br>New album available now!</a>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img class="slide-img" src="images/slide/thiago_balera_3.jpg" alt="Black and white picture of Thiago Balera">
+                        <div class="slide-text">
+                            <a href="about.html" target="_blank" class="slide-link">Learn more about<br>Thiago Balera!</a>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img class="slide-img" src="images/slide/thiago_balera_8.jpg" alt="Thiago Balera playing the guitar">
+                        <div class="slide-text">
+                            <a href="media.html" target="_blank" class="slide-link">Check out Balera's<br>songs and videos!</a>
+                        </div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+                <br>            
+                <div class="slide-dot">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>               
+            </div><!--END Slideshow-->
+
+            <!--START Columns-->
+            <section class="column">
+                <img src="images/photos/thumb/thiago_balera_1.jpg" alt="About icon" class="img-icon">
+                <h2>About</h2>
+                <p>Thiago Balera is a self-taught musician and instrumentalist who discovered his love for music at a young age...</p>
+                <a href="about.html" title="About Me">Learn more</a>
+            </section>
+
+            <section class="column">
+                <img src="images/photos/thumb/thiago_balera_4.jpg" alt="Media icon" class="img-icon">
+                <h2>Media</h2>
+                <p>Thiago Balera is known for his use of a "loopstation" pedalboard in his performances, which allows him to create live...</p>
+                <a href="media.html" title="Media">Learn more</a>
+            </section>
+            
+            <section class="column">
+                <img src="images/photos/thumb/thiago_balera_12.jpg" alt="Contact icon" class="img-icon">
+                <h2>Contact</h2>
+                <p>Please feel free to use any of the methods below to contact Thiago Balera for booking inquiries, collaborations, or just...</p>
+                <a href="contact.html" title="Contact Me">Learn more</a>
+            </section>
+            <!--END Columns-->    
+        </main>
+
+        <footer>
+            Copyright 2023 by <strong>Lucas Araujo</strong>.<br><em class="small">All Rights Reserved</em>.
+        </footer>
+
+        <script src="javascript/slideshow.js"></script>         
+    </body>
+</html>
