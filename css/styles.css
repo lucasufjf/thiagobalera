@@ -147,7 +147,7 @@ p{
     left: 0;
     z-index: 30;
     background-color: #d2232a;
-    background-image: url('../images/logos/thiago_balera.png'); /*Reference: https://www.w3schools.com/cssref/pr_background-image.php*/
+    background-image: url('images/logos/thiago_balera.png'); /*Reference: https://www.w3schools.com/cssref/pr_background-image.php*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
