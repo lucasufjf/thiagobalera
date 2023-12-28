@@ -18,7 +18,7 @@ body {
 /*Reference: https://www.w3schools.com/css/css_background.asp*/
 header{
     text-align: center;
-    background-image: url('../images/header.jpg'); /*Reference: https://www.w3schools.com/cssref/pr_background-image.php*/
+    background-image: url('images/header.jpg'); /*Reference: https://www.w3schools.com/cssref/pr_background-image.php*/
     background-color: #cccccc; 
     background-position: center;
     background-repeat: no-repeat;
@@ -428,7 +428,7 @@ input[type=submit]:hover{
 
 @media only screen and (max-width:600px){
     #logo {
-        background-image: url('../images/logos/thiago_balera_logo.png');
+        background-image: url('images/logos/thiago_balera_logo.png');
         width: 120px;
     }
     .slide-text {
